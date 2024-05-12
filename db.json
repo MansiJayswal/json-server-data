@@ -1,0 +1,2305 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "John Willam",
+        "email": "john@example.com",
+        "password": "password123",
+        "saved_recipes": [
+          {
+            "id": "9",
+            "title": "Gulab Jamun",
+            "ingredients": [
+              "Milk Powder",
+              "Flour",
+              "Sugar",
+              "Ghee",
+              "Cardamom"
+            ],
+            "method": "Mix milk powder and flour with a little water to make a soft dough. Roll into balls and deep fry until golden brown. Make a sugar syrup with water, sugar, and cardamom. Soak fried balls in syrup. Serve warm.",
+            "type": "veg",
+            "cuisine": "Indian",
+            "tags": [
+              "Dessert",
+              "Indian",
+              "Fried"
+            ],
+            "difficulty": "Intermediate",
+            "cookingTime": "40 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 207,
+            "reviews": [],
+            "servingSize": "6",
+            "img": "https://t4.ftcdn.net/jpg/06/21/54/41/360_F_621544128_inBjLYomzXLGFiNVri9ebirH1MMJ7ige.jpg"
+          },
+          {
+            "id": "3",
+            "title": "Margherita Pizza",
+            "ingredients": [
+              "Pizza Dough",
+              "Tomatoes",
+              "Fresh Mozzarella Cheese",
+              "Fresh Basil",
+              "Olive Oil"
+            ],
+            "method": "Preheat oven to highest temperature. Roll out pizza dough and top with sliced tomatoes, fresh mozzarella cheese, and torn basil leaves. Drizzle with olive oil. Bake until crust is golden and cheese is bubbly, about 10-12 minutes.",
+            "type": "veg",
+            "cuisine": "Italian",
+            "tags": [
+              "Pizza",
+              "Italian",
+              "Vegetarian"
+            ],
+            "difficulty": "Easy",
+            "cookingTime": "15 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 175,
+            "reviews": [],
+            "servingSize": "2",
+            "img": "https://img.freepik.com/free-photo/pizza-tasty-cheese-top-view-grey-surface_140725-14194.jpg?t=st=1712125070~exp=1712128670~hmac=47cc308b886809c73f667db6d55fe7600f70653b11219f763a2d5f1135fb6efe&w=740"
+          }
+        ],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Italian"
+      },
+      {
+        "id": "2",
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "password": "securepass",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Mexican",
+        "confirm_password": "securepass"
+      },
+      {
+        "id": "3",
+        "name": "Alice John",
+        "email": "alice@example.com",
+        "password": "Alice@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Indian",
+        "confirm_password": "Alice@123"
+      },
+      {
+        "id": "4",
+        "name": "Bob Brown",
+        "email": "bob@example.com",
+        "password": "bobspassword",
+        "saved_recipes": [
+          {
+            "id": "8",
+            "title": "Sushi Rolls",
+            "ingredients": [
+              "Sushi Rice",
+              "Nori Seaweed",
+              "Fish (Salmon, Tuna, etc.)",
+              "Avocado",
+              "Cucumber"
+            ],
+            "method": "Prepare sushi rice according to package instructions. Lay out nori seaweed, spread rice, and add fish, avocado, and cucumber. Roll tightly and slice. Serve with soy sauce and pickled ginger.",
+            "type": "nonveg",
+            "cuisine": "Japanese",
+            "tags": [
+              "Sushi",
+              "Japanese",
+              "Raw"
+            ],
+            "difficulty": "Advanced",
+            "cookingTime": "40 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 143,
+            "reviews": [],
+            "servingSize": "2",
+            "img": "https://www.yummyhealthyeasy.com/wp-content/uploads/2018/04/california-sushi-rolls-square.jpg"
+          },
+          {
+            "id": "3",
+            "title": "Margherita Pizza",
+            "ingredients": [
+              "Pizza Dough",
+              "Tomatoes",
+              "Fresh Mozzarella Cheese",
+              "Fresh Basil",
+              "Olive Oil"
+            ],
+            "method": "Preheat oven to highest temperature. Roll out pizza dough and top with sliced tomatoes, fresh mozzarella cheese, and torn basil leaves. Drizzle with olive oil. Bake until crust is golden and cheese is bubbly, about 10-12 minutes.",
+            "type": "veg",
+            "cuisine": "Italian",
+            "tags": [
+              "Pizza",
+              "Italian",
+              "Vegetarian"
+            ],
+            "difficulty": "Easy",
+            "cookingTime": "15 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 175,
+            "reviews": [],
+            "servingSize": "2",
+            "img": "https://img.freepik.com/free-photo/pizza-tasty-cheese-top-view-grey-surface_140725-14194.jpg?t=st=1712125070~exp=1712128670~hmac=47cc308b886809c73f667db6d55fe7600f70653b11219f763a2d5f1135fb6efe&w=740"
+          }
+        ],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Chinese"
+      },
+      {
+        "id": "5",
+        "name": "Emily Davis",
+        "email": "emily@example.com",
+        "password": "emilypass123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Thai"
+      },
+      {
+        "id": "6",
+        "name": "Michael Wilson",
+        "email": "michael@example.com",
+        "password": "mypass456",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Italian"
+      },
+      {
+        "id": "7",
+        "name": "Sarah Lee",
+        "email": "sarah@example.com",
+        "password": "sarahpassword",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Mexican"
+      },
+      {
+        "id": "8",
+        "name": "David Rodriguez",
+        "email": "david@example.com",
+        "password": "davidpass",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Indian"
+      },
+      {
+        "id": "9",
+        "name": "Olivia Martinez",
+        "email": "olivia@example.com",
+        "password": "oliviapassword",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Chinese"
+      },
+      {
+        "id": "10",
+        "name": "James Taylor",
+        "email": "james@example.com",
+        "password": "jamespass",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Thai"
+      },
+      {
+        "id": "11",
+        "name": "dummy",
+        "email": "dummy@gmail.com",
+        "password": "dummy",
+        "saved_recipes": [
+          {
+            "id": "1",
+            "title": "Spaghetti Carbonara",
+            "ingredients": [
+              "Spaghetti",
+              "Eggs",
+              "Pancetta",
+              "Parmesan Cheese",
+              "Black Pepper"
+            ],
+            "method": "Cook spaghetti according to package instructions. In a separate pan, cook pancetta until crispy. In a bowl, whisk eggs and Parmesan cheese. Once spaghetti is cooked, drain and toss with pancetta. Add egg mixture and stir quickly to combine. Serve immediately with freshly cracked black pepper.",
+            "type": "nonveg",
+            "cuisine": "Italian",
+            "tags": [
+              "Pasta",
+              "Italian",
+              "Quick and Easy"
+            ],
+            "difficulty": "Intermediate",
+            "cookingTime": "20 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 125,
+            "reviews": [],
+            "servingSize": "4",
+            "img": "https://img.freepik.com/free-photo/front-view-cooked-italian-pasta-with-cutlery-white-background_140725-94889.jpg?t=st=1712124967~exp=1712128567~hmac=db8a00f6c7d5a15de2b1b83d59ec3b5e7d96d492981443bb4f0e8fd9ac3d68af&w=740"
+          }
+        ],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Italian"
+      },
+      {
+        "id": "12",
+        "name": "harsh jayswal",
+        "email": "harsh@gmail.com",
+        "password": "Harsh@123",
+        "saved_recipes": [
+          {
+            "title": "Manchurian",
+            "ingredients": [
+              "Cabbage",
+              "Carrot",
+              "Capsicum",
+              "Onion",
+              "Ginger-garlic paste",
+              "Corn flour",
+              "Sauces",
+              "ajionomoto(optional)",
+              "green chilly"
+            ],
+            "method": "In the same pan used for frying the vegetable balls, heat 2 tablespoons of vegetable oil over medium heat.\nAdd the chopped garlic, chopped ginger, and slit green chilies. Sauté for a minute until aromatic.\nAdd the finely chopped onion and diced bell pepper. Stir-fry for 2-3 minutes until the vegetables are slightly softened but still crisp.\nStir in soy sauce, chili sauce or Sriracha sauce, tomato ketchup, vinegar, sugar, and salt. Mix well.\nPour in water and bring the mixture to a simmer.\nIn a small bowl, mix cornflour with water to form a smooth slurry. Gradually pour the cornflour slurry into the simmering sauce while stirring continuously.\nCook the sauce for another 2-3 minutes or until it thickens to your desired consistency.\nAdd the fried vegetable balls to the sauce and gently toss until they are well coated.\nCook for an additional minute, allowing the vegetable balls to absorb the flavors of the sauce.\nGarnish with chopped spring onions or cilantro if desired.\nServe hot as an appetizer or with steamed rice or noodles as a main course",
+            "type": "veg",
+            "cuisine": "Chinese",
+            "tags": [
+              "Snacks",
+              "Spicy",
+              "Delicious",
+              "chinese",
+              "streetfood",
+              "quick and easy"
+            ],
+            "difficulty": "Intermediate",
+            "cookingTime": "45 mins",
+            "servingSize": "4",
+            "img": "https://t3.ftcdn.net/jpg/04/47/95/48/360_F_447954890_nYoJ3Lm6OElMe0LogDry2KfHF4tXsfMw.jpg",
+            "reviews": [],
+            "likesCount": 51,
+            "authorId": "12",
+            "authorName": "harsh",
+            "id": "24"
+          },
+          {
+            "id": "30",
+            "title": "Paneer Tikka",
+            "ingredients": [
+              "Paneer",
+              "Curd",
+              "Gram flour",
+              "Spices",
+              "Oil",
+              "Coriander "
+            ],
+            "method": "Cut paneer (Indian cottage cheese) into cubes and prepare the marinade.\nThe marinade typically consists of yogurt, spices like red chili powder, turmeric, garam masala, and lemon juice.\nThread the marinated paneer cubes onto skewers, along with chunks of vegetables like bell peppers, onions, and tomatoes.\nCook the skewered paneer tikka either on a grill, in a grill pan, or bake them in the oven.\nIf grilling, cook until the paneer and vegetables are charred and cooked through, flipping occasionally.\nIf baking, preheat the oven and bake the skewers until the paneer is golden brown and the vegetables are tender.",
+            "type": "veg",
+            "cuisine": "Indian",
+            "tags": [
+              "Spicy",
+              "StreetFood",
+              "Snacks",
+              "Punjabi"
+            ],
+            "difficulty": "Intermediate",
+            "cookingTime": "30mins",
+            "servingSize": "4",
+            "img": "https://t4.ftcdn.net/jpg/04/75/65/21/360_F_475652107_Sx73qgHWljGylX5KRyDFeE46ftX0A4EE.jpg",
+            "reviews": [],
+            "likesCount": 51,
+            "authorId": "12",
+            "authorName": "harsh"
+          },
+          {
+            "id": "33",
+            "title": "Rajasthani Ghevar",
+            "ingredients": [
+              "1 1/2 cup all purpose flour",
+              "1/2 cup ghee",
+              "2 pieces ice cubes",
+              "water",
+              "sugar",
+              "ghee",
+              "milk"
+            ],
+            "method": "Step 1 Prepare the sugar syrup for Ghevar\nGhevar is an easy-to-make recipe and can be prepared with some easily available ingredients. To begin with, you need to prepare the sugar syrup of one string consistency. Then, take a large wide bowl and add solidified ghee in it. Take one ice cube at a time and rub the ghee vigorously. Take more ice cubes as required till the ghee becomes very white in colour.\nStep 2 Prepare the Ghevar batter\nThen add milk, flour and one cup water. Mix these ingredients to make a smooth batter. Dissolve food colour in water and add to the batter. Add more water as required. The consistency of the batter should be fairly thin.\nStep 3 Cook the Ghevar\nThen take an aluminium or steel cylindrical container. Make sure that its height is at least 12″ and diameter is of 5-6″. Fill half of the container with ghee. Heat it and once the ghee is hot enough, then take a 50 ml, a glassful of the batter. Pour in centre of ghee, slowly in one continuous thread-like stream. Allow the foam to settle.\nStep 4 Cool the Ghevar and garnish with dry fruits\nAlternatively, pour some syrup evenly all over, keeping Ghevar in a mesh placed over a container. Let it cool and settle down, then top it with edible silver foil. Splash a few drops of saffron milk, sprinkle some chopped dry fruits and 1 tsp of cardamom powder. Serve it with savouries like Pakoras, Kachoris and Samosas.",
+            "type": "veg",
+            "cuisine": "Rajasthani",
+            "tags": [
+              "Rajasthani",
+              "Sweet",
+              "Dessert"
+            ],
+            "difficulty": "Advanced",
+            "cookingTime": "50mins",
+            "servingSize": "4",
+            "img": "https://t3.ftcdn.net/jpg/04/60/79/30/360_F_460793066_kFmSdrFRNraNsLeARfcxuEjiuO3GLo22.jpg",
+            "reviews": [
+              {
+                "id": "43",
+                "userId": "12",
+                "postId": "33",
+                "rating": "5",
+                "comment": "Too yummy!"
+              },
+              {
+                "id": "44",
+                "userId": "12",
+                "postId": "33",
+                "rating": "3",
+                "comment": "Looks tough to Prepare ;("
+              }
+            ],
+            "likesCount": 51,
+            "authorId": "12",
+            "authorName": "harsh"
+          }
+        ],
+        "created_recipes": [
+          {
+            "title": "Yummm Manchurian ",
+            "ingredients": [
+              "Cabbage",
+              "Carrot",
+              "Capsicum",
+              "Onion",
+              "Ginger-garlic paste",
+              "Corn flour",
+              "Sauces",
+              "ajionomoto(optional)",
+              "green chilly",
+              "spring onions"
+            ],
+            "method": "In the same pan used for frying the vegetable balls, heat 2 tablespoons of vegetable oil over medium heat.\nAdd the chopped garlic, chopped ginger, and slit green chilies. Sauté for a minute until aromatic.\nAdd the finely chopped onion and diced bell pepper. Stir-fry for 2-3 minutes until the vegetables are slightly softened but still crisp.\nStir in soy sauce, chili sauce or Sriracha sauce, tomato ketchup, vinegar, sugar, and salt. Mix well.\nPour in water and bring the mixture to a simmer.\nIn a small bowl, mix cornflour with water to form a smooth slurry. Gradually pour the cornflour slurry into the simmering sauce while stirring continuously.\nCook the sauce for another 2-3 minutes or until it thickens to your desired consistency.\nAdd the fried vegetable balls to the sauce and gently toss until they are well coated.\nCook for an additional minute, allowing the vegetable balls to absorb the flavors of the sauce.\nGarnish with chopped spring onions or cilantro if desired.\nServe hot as an appetizer or with steamed rice or noodles as a main course",
+            "type": "veg",
+            "cuisine": "Chinese",
+            "tags": [
+              "Snacks",
+              "Spicy",
+              "Delicious",
+              "chinese",
+              "streetfood",
+              "quick and easy",
+              "yummy"
+            ],
+            "difficulty": "Intermediate",
+            "cookingTime": "45 mins",
+            "servingSize": "4",
+            "img": "https://media.istockphoto.com/id/1284771657/photo/veg-manchurian-gravy-balls-in-black-bowl-in-dark-slate-table-top-vegetarian-manchurian-is.jpg?s=612x612&w=0&k=20&c=M0w1rsKN_wkXJpX1Gr14giH8mEvCalM6gSZD2qgfnCU=",
+            "reviews": [],
+            "likesCount": 51,
+            "authorId": "12",
+            "authorName": "harsh",
+            "id": "24"
+          },
+          {
+            "title": "Gujarati Thepla",
+            "ingredients": [
+              "2 cups whole wheat flour (atta)",
+              "1 cup finely chopped fenugreek leaves (methi)",
+              "1/4 cup yogurt",
+              "1 tablespoon oil",
+              "1/2 teaspoon turmeric powder",
+              "1/2 teaspoon red chili powder",
+              "Salt to taste",
+              "Water",
+              "as needed"
+            ],
+            "method": "Heat a griddle or tawa over medium heat.\nPlace a rolled thepla onto the hot griddle.\nCook for about a minute or until you see bubbles forming on the surface.\nFlip the thepla and cook the other side, applying some oil or ghee on the surface.\nPress gently with a spatula to ensure even cooking and to get golden brown spots on both sides.\nOnce cooked, remove the thepla from the griddle and place it on a plate.\nRepeat the same process with the remaining rolled theplas.\nServe hot with yogurt, pickle, or any chutney of your choice.\n",
+            "type": "veg",
+            "cuisine": "Indian",
+            "tags": [
+              "Gujarati",
+              "snacks",
+              "breakfast"
+            ],
+            "difficulty": "Easy",
+            "cookingTime": "30mins",
+            "servingSize": "2",
+            "img": "https://thumbs.dreamstime.com/b/indian-parantha-stuffed-indian-bread-methi-thepla-stack-indian-flatbread-methi-paratha-fenugreek-gujarati-thepla-potato-125773599.jpg",
+            "reviews": [],
+            "likesCount": 51,
+            "authorId": "12",
+            "authorName": "harsh",
+            "id": "26"
+          },
+          {
+            "title": "Masala bhindi",
+            "ingredients": [
+              "ladyfingers",
+              "spices",
+              "oil",
+              "onion"
+            ],
+            "method": "hi \nhi\nhih\nhih\nhih\nhhih\nhuh\n",
+            "type": "veg",
+            "cuisine": "Indian",
+            "tags": [
+              "lunch ",
+              "easy"
+            ],
+            "difficulty": "Easy",
+            "cookingTime": "30mins",
+            "servingSize": "2",
+            "img": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2020/Bhindi__Masala_Recipe_Bhindi_Tamatar_Sabzi_North_Indian_Recipe_1_1600.jpg",
+            "reviews": [],
+            "likesCount": 51,
+            "authorId": "12",
+            "authorName": "harsh",
+            "id": "29"
+          }
+        ],
+        "reviews": [
+          {
+            "id": "20",
+            "userId": "12",
+            "postId": "25",
+            "rating": "4",
+            "comment": "nice recipe"
+          }
+        ],
+        "preference": "Chinese",
+        "confirm_password": "Harsh@123"
+      },
+      {
+        "id": "13",
+        "name": "ridham",
+        "email": "ridham@gmail.com",
+        "password": "ridham",
+        "saved_recipes": [
+          {
+            "id": "9",
+            "title": "Gulab Jamun",
+            "ingredients": [
+              "Milk Powder",
+              "Flour",
+              "Sugar",
+              "Ghee",
+              "Cardamom"
+            ],
+            "method": "Mix milk powder and flour with a little water to make a soft dough. Roll into balls and deep fry until golden brown. Make a sugar syrup with water, sugar, and cardamom. Soak fried balls in syrup. Serve warm.",
+            "type": "veg",
+            "cuisine": "Indian",
+            "tags": [
+              "Dessert",
+              "Indian",
+              "Fried"
+            ],
+            "difficulty": "Intermediate",
+            "cookingTime": "40 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 207,
+            "reviews": [],
+            "servingSize": "6",
+            "img": "https://t4.ftcdn.net/jpg/06/21/54/41/360_F_621544128_inBjLYomzXLGFiNVri9ebirH1MMJ7ige.jpg"
+          },
+          {
+            "id": "22",
+            "title": "Gajar halwa",
+            "ingredients": [
+              "carrots ",
+              " Ghee ",
+              " cashews ",
+              " cardamom powder ",
+              "  milk ",
+              " sugar"
+            ],
+            "method": "Step 1: Grate the Carrots\n\nPeel and grate fresh carrots using a grater.\nHeat a pan and add a tablespoon of ghee (clarified butter).\nAdd the grated carrots to the pan and sauté them until they turn soft and release their juices. This might take around 10-15 minutes on medium heat.\nStep 2: Cook the Carrots\n\nOnce the carrots are soft, add milk to the pan. The quantity of milk depends on the amount of carrots you have, but a good rule of thumb is to add enough milk to just cover the carrots.\nLet the mixture simmer on low heat, stirring occasionally. Allow the carrots to cook in the milk until the milk reduces and thickens. This process could take around 30-40 minutes.\nStep 3: Sweeten and Flavor\n\nOnce the milk has reduced significantly and the carrots are cooked through, add sugar according to your taste preference. You can start with half a cup of sugar and adjust according to your sweetness preference.\nAdd cardamom powder and chopped nuts like almonds and pistachios for flavor and texture.\nStir well and continue cooking for another 10-15 minutes until the mixture thickens further and attains a halwa-like consistency.\nYour Gajar ka Halwa is now ready to be served hot or cold, garnished with more chopped nuts if desired.\nEnjoy your delicious homemade Gajar ka Halwa!",
+            "type": "veg",
+            "cuisine": "Indian",
+            "tags": [
+              "Sweet ",
+              " snacks ",
+              " indian "
+            ],
+            "difficulty": "Easy",
+            "cookingTime": "90 mins",
+            "servingSize": "5",
+            "img": "https://t3.ftcdn.net/jpg/03/27/17/30/360_F_327173095_araZyvlYmOO17gNxsK6jsXxbVuEAQJ9q.jpg",
+            "reviews": [],
+            "likesCount": 200,
+            "authorID": "13",
+            "authorName": "ridham"
+          }
+        ],
+        "created_recipes": [
+          {
+            "id": "22",
+            "title": "Gajar halwa",
+            "ingredients": [
+              "carrots ",
+              " Ghee ",
+              " cashews ",
+              " cardamom powder ",
+              "  milk ",
+              " sugar"
+            ],
+            "method": "Step 1: Grate the Carrots\n\nPeel and grate fresh carrots using a grater.\nHeat a pan and add a tablespoon of ghee (clarified butter).\nAdd the grated carrots to the pan and sauté them until they turn soft and release their juices. This might take around 10-15 minutes on medium heat.\nStep 2: Cook the Carrots\n\nOnce the carrots are soft, add milk to the pan. The quantity of milk depends on the amount of carrots you have, but a good rule of thumb is to add enough milk to just cover the carrots.\nLet the mixture simmer on low heat, stirring occasionally. Allow the carrots to cook in the milk until the milk reduces and thickens. This process could take around 30-40 minutes.\nStep 3: Sweeten and Flavor\n\nOnce the milk has reduced significantly and the carrots are cooked through, add sugar according to your taste preference. You can start with half a cup of sugar and adjust according to your sweetness preference.\nAdd cardamom powder and chopped nuts like almonds and pistachios for flavor and texture.\nStir well and continue cooking for another 10-15 minutes until the mixture thickens further and attains a halwa-like consistency.\nYour Gajar ka Halwa is now ready to be served hot or cold, garnished with more chopped nuts if desired.\nEnjoy your delicious homemade Gajar ka Halwa!",
+            "type": "veg",
+            "cuisine": "Indian",
+            "tags": [
+              "Sweet ",
+              " snacks ",
+              " indian "
+            ],
+            "difficulty": "Easy",
+            "cookingTime": "90 mins",
+            "servingSize": "5",
+            "img": "https://t3.ftcdn.net/jpg/03/27/17/30/360_F_327173095_araZyvlYmOO17gNxsK6jsXxbVuEAQJ9q.jpg",
+            "reviews": [],
+            "likesCount": 200,
+            "authorID": "13",
+            "authorName": "ridham"
+          }
+        ],
+        "reviews": [],
+        "preference": "Italian"
+      },
+      {
+        "id": "14",
+        "name": "rushi",
+        "email": "rushi@gmail.com",
+        "password": "Rushi@123",
+        "saved_recipes": [
+          {
+            "id": "3",
+            "title": "Margherita Pizza",
+            "ingredients": [
+              "Pizza Dough",
+              "Tomatoes",
+              "Fresh Mozzarella Cheese",
+              "Fresh Basil",
+              "Olive Oil"
+            ],
+            "method": "Preheat oven to highest temperature. Roll out pizza dough and top with sliced tomatoes, fresh mozzarella cheese, and torn basil leaves. Drizzle with olive oil. Bake until crust is golden and cheese is bubbly, about 10-12 minutes.",
+            "type": "veg",
+            "cuisine": "Italian",
+            "tags": [
+              "Pizza",
+              "Italian",
+              "Vegetarian"
+            ],
+            "difficulty": "Easy",
+            "cookingTime": "15 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 175,
+            "reviews": [
+              {
+                "id": "32",
+                "userId": "14",
+                "postId": "3",
+                "rating": "5",
+                "comment": "Looks yum!!!"
+              }
+            ],
+            "servingSize": "2",
+            "img": "https://img.freepik.com/free-photo/pizza-tasty-cheese-top-view-grey-surface_140725-14194.jpg?t=st=1712125070~exp=1712128670~hmac=47cc308b886809c73f667db6d55fe7600f70653b11219f763a2d5f1135fb6efe&w=740"
+          }
+        ],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Indian"
+      },
+      {
+        "id": "15",
+        "name": "Akshaliii",
+        "email": "akshali@gmail.com",
+        "password": "Akshali@123",
+        "saved_recipes": [
+          {
+            "id": "1",
+            "title": "Spaghetti Carbonara",
+            "ingredients": [
+              "Spaghetti",
+              "Eggs",
+              "Pancetta",
+              "Parmesan Cheese",
+              "Black Pepper"
+            ],
+            "method": "Cook spaghetti according to package instructions. In a separate pan, cook pancetta until crispy. In a bowl, whisk eggs and Parmesan cheese. Once spaghetti is cooked, drain and toss with pancetta. Add egg mixture and stir quickly to combine. Serve immediately with freshly cracked black pepper.",
+            "type": "nonveg",
+            "cuisine": "Italian",
+            "tags": [
+              "Pasta",
+              "Italian",
+              "Quick and Easy"
+            ],
+            "difficulty": "Intermediate",
+            "cookingTime": "20 minutes",
+            "authorId": 1111,
+            "authorName": "flavourRealm",
+            "likesCount": 125,
+            "reviews": [
+              {
+                "id": "32",
+                "userId": "14",
+                "postId": "1",
+                "rating": "5",
+                "comment": "Amazinggggg recipe!"
+              },
+              {
+                "id": "33",
+                "userId": "14",
+                "postId": "1",
+                "rating": "3",
+                "comment": "good :)"
+              }
+            ],
+            "servingSize": "4",
+            "img": "https://img.freepik.com/free-photo/front-view-cooked-italian-pasta-with-cutlery-white-background_140725-94889.jpg?t=st=1712124967~exp=1712128567~hmac=db8a00f6c7d5a15de2b1b83d59ec3b5e7d96d492981443bb4f0e8fd9ac3d68af&w=740"
+          }
+        ],
+        "created_recipes": [
+          {
+            "id": "31",
+            "title": "Cake",
+            "ingredients": [
+              "2 cups all-purpose flour",
+              "1 cup sugar",
+              "1 cup milk",
+              "1/2 cup vegetable oil"
+            ],
+            "method": "Preheat oven to 350°F (175°C) and grease a cake pan.\nIn a bowl, mix flour, sugar, and baking powder.\nAdd milk and vegetable oil to the dry ingredients and mix until smooth.\nPour batter into the greased pan and bake for 30-35 minutes.\nOnce baked, let the cake cool before serving. Enjoy!",
+            "type": "veg",
+            "cuisine": "Italian",
+            "tags": [
+              "sweet",
+              "baking",
+              "dessert"
+            ],
+            "difficulty": "Advanced",
+            "cookingTime": "50 minutes",
+            "servingSize": "4",
+            "img": "https://st4.depositphotos.com/10614052/25239/i/450/depositphotos_252391082-stock-photo-sweet-chocolate-cake-on-wooden.jpg",
+            "reviews": [],
+            "likesCount": 51,
+            "authorId": "15",
+            "authorName": "Akshaliii"
+          }
+        ],
+        "reviews": [],
+        "preference": "Mexican",
+        "confirm_password": "Akshali@123"
+      },
+      {
+        "id": "16",
+        "name": "Saurav",
+        "email": "saurav@gmail.com",
+        "password": "Saurav@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Indian"
+      },
+      {
+        "id": "17",
+        "name": "Ashka",
+        "email": "ashka@gmail.com",
+        "password": "Ashka@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Mexican"
+      },
+      {
+        "id": "18",
+        "name": "mansiJayswal",
+        "email": "jayswalmansi20@gmail.com",
+        "password": "Mansi@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Italian",
+        "confirm_password": "Mansi@123"
+      },
+      {
+        "id": "19",
+        "name": "mayank jayswal",
+        "email": "mayank@gmail.com",
+        "password": "Mayank@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Mexican",
+        "confirm_password": "Mayank@123"
+      },
+      {
+        "id": "20",
+        "name": "Krutikaaa",
+        "email": "krutika@gmail.com",
+        "password": "Krutika@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Chinese",
+        "confirm_password": "Krutika@123"
+      },
+      {
+        "id": "21",
+        "name": "harmiiii",
+        "email": "harmi@gmail.com",
+        "password": "harmi@123A",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Indian",
+        "confirm_password": "harmi@123A"
+      },
+      {
+        "id": "22",
+        "name": "aisha",
+        "email": "aisha@gmail.com",
+        "password": "aisha",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Italian"
+      },
+      {
+        "id": "23",
+        "name": "hello",
+        "email": "harshaa@gmail.com",
+        "password": "Hello@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Italian"
+      },
+      {
+        "id": "24",
+        "name": "Bacancy",
+        "email": "bacancy@gmail.com",
+        "password": "Bacancy@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Mexican"
+      },
+      {
+        "id": "25",
+        "name": "Guest",
+        "email": "bacancysystems@gmail.com",
+        "password": "Bacancy@123",
+        "saved_recipes": [],
+        "created_recipes": [],
+        "reviews": [],
+        "preference": "Mexican",
+        "confirm_password": "Bacancy@123"
+      }
+    ],
+    "recipes": [
+      {
+        "id": "1",
+        "title": "Spaghetti Carbonara",
+        "ingredients": [
+          "Spaghetti",
+          "Eggs",
+          "Pancetta",
+          "Parmesan Cheese",
+          "Black Pepper"
+        ],
+        "method": "Cook spaghetti according to package instructions. In a separate pan, cook pancetta until crispy. In a bowl, whisk eggs and Parmesan cheese. Once spaghetti is cooked, drain and toss with pancetta. Add egg mixture and stir quickly to combine. Serve immediately with freshly cracked black pepper.",
+        "type": "nonveg",
+        "cuisine": "Italian",
+        "tags": [
+          "Pasta",
+          "Italian",
+          "Quick and Easy"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "20 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 125,
+        "reviews": [
+          {
+            "id": "32",
+            "userId": "14",
+            "postId": "1",
+            "rating": "5",
+            "comment": "Amazinggggg recipe!"
+          },
+          {
+            "id": "33",
+            "userId": "14",
+            "postId": "1",
+            "rating": "3",
+            "comment": "good :)"
+          }
+        ],
+        "servingSize": "4",
+        "img": "https://img.freepik.com/free-photo/front-view-cooked-italian-pasta-with-cutlery-white-background_140725-94889.jpg?t=st=1712124967~exp=1712128567~hmac=db8a00f6c7d5a15de2b1b83d59ec3b5e7d96d492981443bb4f0e8fd9ac3d68af&w=740"
+      },
+      {
+        "id": "2",
+        "title": "Chicken Tikka Masala",
+        "ingredients": [
+          "Chicken",
+          "Yogurt",
+          "Tomato Sauce",
+          "Onion",
+          "Ginger",
+          "Garlic",
+          "Spices"
+        ],
+        "method": "Marinate chicken pieces in yogurt and spices. Grill or bake until cooked through. In a separate pan, sauté onions, ginger, and garlic until soft. Add tomato sauce and cooked chicken pieces. Simmer until flavors meld. Serve with rice or naan bread.",
+        "type": "nonveg",
+        "cuisine": "Indian",
+        "tags": [
+          "Curry",
+          "Indian",
+          "Grilled"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "40 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 212,
+        "reviews": [
+          {
+            "id": "36",
+            "userId": "14",
+            "postId": "2",
+            "rating": "3",
+            "comment": "Niceee"
+          }
+        ],
+        "servingSize": "4",
+        "img": "https://img.freepik.com/free-photo/front-view-meat-sauce-soup-with-greens-potatoes-dark-desk-soup-meal-sauce-meat_140725-79069.jpg?t=st=1712125038~exp=1712128638~hmac=4c7803cbbc1c9e6e95b98df32475808cd2bfba7daa6c3cade8c7663621e80676&w=740",
+        "isTrending": false
+      },
+      {
+        "id": "3",
+        "title": "Margherita Pizza",
+        "ingredients": [
+          "Pizza Dough",
+          "Tomatoes",
+          "Fresh Mozzarella Cheese",
+          "Fresh Basil",
+          "Olive Oil"
+        ],
+        "method": "Preheat oven to highest temperature. Roll out pizza dough and top with sliced tomatoes, fresh mozzarella cheese, and torn basil leaves. Drizzle with olive oil. Bake until crust is golden and cheese is bubbly, about 10-12 minutes.",
+        "type": "veg",
+        "cuisine": "Italian",
+        "tags": [
+          "Pizza",
+          "Italian",
+          "Vegetarian"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "15 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 175,
+        "reviews": [
+          {
+            "id": "34",
+            "userId": "14",
+            "postId": "3",
+            "rating": "3",
+            "comment": "nice"
+          },
+          {
+            "id": "35",
+            "userId": "14",
+            "postId": "3",
+            "rating": "1",
+            "comment": "ok ok!"
+          },
+          {
+            "id": "40",
+            "userId": "16",
+            "postId": "3",
+            "rating": "4",
+            "comment": "Great Recipe!"
+          }
+        ],
+        "servingSize": "2",
+        "img": "https://img.freepik.com/free-photo/pizza-tasty-cheese-top-view-grey-surface_140725-14194.jpg?t=st=1712125070~exp=1712128670~hmac=47cc308b886809c73f667db6d55fe7600f70653b11219f763a2d5f1135fb6efe&w=740"
+      },
+      {
+        "id": "4",
+        "title": "Tacos al Pastor",
+        "ingredients": [
+          "Pork Shoulder",
+          "Pineapple",
+          "Corn Tortillas",
+          "Onion",
+          "Cilantro",
+          "Spices"
+        ],
+        "method": "Marinate thinly sliced pork shoulder in spices and pineapple juice. Grill until caramelized. Serve on warm corn tortillas with diced pineapple, onions, and cilantro.",
+        "type": "nonveg",
+        "cuisine": "Mexican",
+        "tags": [
+          "Tacos",
+          "Mexican",
+          "Street Food"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "30 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 154,
+        "reviews": [
+          {
+            "id": "22",
+            "userId": "14",
+            "postId": "4",
+            "rating": "5",
+            "comment": "Looks delicious"
+          },
+          {
+            "id": "41",
+            "userId": "12",
+            "postId": "4",
+            "rating": "3",
+            "comment": "nice"
+          }
+        ],
+        "servingSize": "4",
+        "img": "https://www.thespruceeats.com/thmb/wQd2RvxH1Lh9536W5LY1T_VSyT8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tacos-al-pastor-recipe-4172074-hero-01-7fb1a4455397486b8485ac8ec2ca3c5a.jpg",
+        "isTrending": true
+      },
+      {
+        "id": "5",
+        "title": "Paneer Butter Masala",
+        "ingredients": [
+          "Paneer",
+          "Tomatoes",
+          "Cream",
+          "Onion",
+          "Cashews",
+          "Spices"
+        ],
+        "method": "Sauté onions, tomatoes, and cashews until soft. Blend into a smooth paste. In a pan, heat butter and add the paste. Cook until oil separates. Add cream and paneer cubes. Simmer until heated through. Serve hot.",
+        "type": "veg",
+        "cuisine": "Indian",
+        "tags": [
+          "Curry",
+          "Indian",
+          "Vegetarian"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "35 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 198,
+        "reviews": [
+          {
+            "id": "38",
+            "userId": "15",
+            "postId": "5",
+            "rating": "3",
+            "comment": "Great recipe , easy to make !"
+          },
+          {
+            "id": "39",
+            "userId": "15",
+            "postId": "5",
+            "rating": "4",
+            "comment": "Looks deliciousssssss!!!"
+          },
+          {
+            "id": "47",
+            "userId": "29",
+            "postId": "5",
+            "rating": "4",
+            "comment": "nice!"
+          }
+        ],
+        "servingSize": "4",
+        "img": "https://t4.ftcdn.net/jpg/05/82/28/65/360_F_582286506_Kji3X5NrZBHMTFSqwG9gADXWMsjrtEjL.jpg",
+        "isTrending": false
+      },
+      {
+        "id": "6",
+        "title": "Pad Thai",
+        "ingredients": [
+          "Rice Noodles",
+          "Shrimp",
+          "Tofu",
+          "Bean Sprouts",
+          "Peanuts",
+          "Egg",
+          "Sauce"
+        ],
+        "method": "Soak rice noodles in warm water until softened. Sauté shrimp, tofu, and beaten egg. Add drained noodles and sauce. Stir-fry until heated through. Toss in bean sprouts and peanuts. Serve hot.",
+        "type": "nonveg",
+        "cuisine": "Thai",
+        "tags": [
+          "Noodles",
+          "Thai",
+          "Stir-fry"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "25 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 167,
+        "reviews": [
+          {
+            "id": "27",
+            "userId": "7",
+            "postId": "6",
+            "rating": "5",
+            "comment": "Greattttttttttt Recipe!!"
+          }
+        ],
+        "servingSize": "2",
+        "img": "https://i.pinimg.com/originals/e2/ef/8c/e2ef8c7a796494d0342820589752b646.jpg",
+        "isTrending": false
+      },
+      {
+        "id": "7",
+        "title": "Chicken Tikka Masala",
+        "ingredients": [
+          "Chicken",
+          "Yogurt",
+          "Tomato Sauce",
+          "Onion",
+          "Ginger",
+          "Garlic",
+          "Spices"
+        ],
+        "method": "Marinate chicken pieces in yogurt and spices. Grill or bake until cooked through. In a separate pan, sauté onions, ginger, and garlic until soft. Add tomato sauce and cooked chicken pieces. Simmer until flavors meld. Serve with rice or naan bread.",
+        "type": "nonveg",
+        "cuisine": "Indian",
+        "tags": [
+          "Curry",
+          "Indian",
+          "Grilled"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "40 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 212,
+        "reviews": [],
+        "servingSize": "4",
+        "img": "https://img.freepik.com/free-photo/front-view-meat-sauce-soup-with-greens-potatoes-dark-desk-soup-meal-sauce-meat_140725-79069.jpg?t=st=1712125038~exp=1712128638~hmac=4c7803cbbc1c9e6e95b98df32475808cd2bfba7daa6c3cade8c7663621e80676&w=740",
+        "isTrending": false
+      },
+      {
+        "id": "8",
+        "title": "Sushi Rolls",
+        "ingredients": [
+          "Sushi Rice",
+          "Nori Seaweed",
+          "Fish (Salmon, Tuna, etc.)",
+          "Avocado",
+          "Cucumber"
+        ],
+        "method": "Prepare sushi rice according to package instructions. Lay out nori seaweed, spread rice, and add fish, avocado, and cucumber. Roll tightly and slice. Serve with soy sauce and pickled ginger.",
+        "type": "nonveg",
+        "cuisine": "Japanese",
+        "tags": [
+          "Sushi",
+          "Japanese",
+          "Raw"
+        ],
+        "difficulty": "Advanced",
+        "cookingTime": "40 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 143,
+        "reviews": [],
+        "servingSize": "2",
+        "img": "https://www.yummyhealthyeasy.com/wp-content/uploads/2018/04/california-sushi-rolls-square.jpg"
+      },
+      {
+        "id": "9",
+        "title": "Veg Biryani",
+        "ingredients": [
+          "Basmati Rice",
+          "Chicken",
+          "Yogurt",
+          "Onion",
+          "Tomatoes",
+          "Spices"
+        ],
+        "method": "Marinate chicken in yogurt and spices. Parboil rice. Layer rice and chicken in a pot. Add fried onions and tomatoes. Cook on low heat until rice is fully cooked. Serve hot with raita.",
+        "type": "nonveg",
+        "cuisine": "Indian",
+        "tags": [
+          "Rice",
+          "Indian",
+          "Spicy"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "50 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 51,
+        "reviews": [
+          {
+            "id": "49",
+            "userId": "29",
+            "postId": "9",
+            "rating": "4",
+            "comment": "nice"
+          }
+        ],
+        "servingSize": "4",
+        "img": "https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg",
+        "isTrending": true
+      },
+      {
+        "id": "10",
+        "title": "Chicken Fajitas",
+        "ingredients": [
+          "Chicken",
+          "Bell Peppers",
+          "Onion",
+          "Lime",
+          "Spices",
+          "Tortillas"
+        ],
+        "method": "Marinate chicken in lime juice and spices. Grill or sauté until cooked through. Sauté sliced bell peppers and onions until tender. Serve chicken and veggies in warm tortillas.",
+        "type": "nonveg",
+        "cuisine": "Mexican",
+        "tags": [
+          "Fajitas",
+          "Mexican",
+          "Grilled"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "25 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 165,
+        "reviews": [],
+        "servingSize": "4",
+        "img": "https://t4.ftcdn.net/jpg/00/89/81/29/360_F_89812966_tFKNZ1u84JDlEY4wXQ186q31VQKaMBO6.jpg"
+      },
+      {
+        "id": "11",
+        "title": "Caprese Salad",
+        "ingredients": [
+          "Tomatoes",
+          "Fresh Mozzarella Cheese",
+          "Fresh Basil",
+          "Balsamic Vinegar",
+          "Olive Oil"
+        ],
+        "method": "Slice tomatoes and fresh mozzarella cheese. Arrange on a plate with fresh basil leaves. Drizzle with balsamic vinegar and olive oil. Season with salt and pepper to taste.",
+        "type": "veg",
+        "cuisine": "Italian",
+        "tags": [
+          "Salad",
+          "Italian",
+          "Healthy"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "10 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 198,
+        "reviews": [],
+        "servingSize": "2",
+        "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg"
+      },
+      {
+        "id": "12",
+        "title": "Chicken Curry",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Onion",
+          "Ginger",
+          "Garlic",
+          "Spices",
+          "Coconut Milk"
+        ],
+        "method": "Sauté onions, ginger, and garlic until soft. Add spices and chopped tomatoes. Cook until tomatoes break down. Add chicken pieces and coconut milk. Simmer until chicken is cooked through. Serve hot with rice.",
+        "type": "nonveg",
+        "cuisine": "Indian",
+        "tags": [
+          "Curry",
+          "Indian",
+          "Coconut"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "35 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 185,
+        "reviews": [],
+        "servingSize": "4",
+        "img": "https://t4.ftcdn.net/jpg/06/46/09/17/360_F_646091793_ZGkTH6nwTLeGA9jPp20vnFpnKLrZwCYy.jpg",
+        "isTrending": false
+      },
+      {
+        "id": "13",
+        "title": "Tiramisu",
+        "ingredients": [
+          "Ladyfingers",
+          "Espresso",
+          "Mascarpone Cheese",
+          "Eggs",
+          "Sugar",
+          "Cocoa Powder"
+        ],
+        "method": "Dip ladyfingers in espresso and layer in a dish. Mix mascarpone cheese, eggs, and sugar until creamy. Spread over ladyfingers. Repeat layers. Chill for several hours. Dust with cocoa powder before serving.",
+        "type": "veg",
+        "cuisine": "Italian",
+        "tags": [
+          "Dessert",
+          "Italian",
+          "Coffee"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "45 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 210,
+        "reviews": [],
+        "servingSize": "8",
+        "img": "https://us.123rf.com/450wm/olindana/olindana2303/olindana230300018/201276129-scrumptious-delicious-tiramisu-on-a-plate-dusted-with-cocoa-powder-decorated-with-fresh-mint-italian.jpg",
+        "isTrending": true
+      },
+      {
+        "id": "14",
+        "title": "Vegetable Stir-Fry",
+        "ingredients": [
+          "Mixed Vegetables",
+          "Soy Sauce",
+          "Ginger",
+          "Garlic",
+          "Vegetable Oil",
+          "Rice"
+        ],
+        "method": "Heat vegetable oil in a pan. Add minced ginger and garlic. Stir in mixed vegetables and cook until tender-crisp. Add soy sauce and toss to coat. Serve hot over steamed rice.",
+        "type": "veg",
+        "cuisine": "Chinese",
+        "tags": [
+          "Stir-fry",
+          "Chinese",
+          "Healthy"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "20 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 158,
+        "reviews": [
+          {
+            "id": "26",
+            "userId": "12",
+            "postId": "14",
+            "rating": "3",
+            "comment": "nice"
+          }
+        ],
+        "servingSize": "3",
+        "img": "https://recipe30.com/wp-content/uploads/2021/08/Asian-stirfried-vegetables.jpg",
+        "isTrending": true
+      },
+      {
+        "id": "15",
+        "title": "Tom Yum Soup",
+        "ingredients": [
+          "Shrimp",
+          "Mushrooms",
+          "Lemongrass",
+          "Galangal",
+          "Kaffir Lime Leaves",
+          "Chili Paste",
+          "Coconut Milk"
+        ],
+        "method": "Simmer lemongrass, galangal, kaffir lime leaves, and chili paste in coconut milk. Add shrimp and mushrooms. Cook until shrimp is pink and cooked through. Serve hot.",
+        "type": "nonveg",
+        "cuisine": "Thai",
+        "tags": [
+          "Soup",
+          "Thai",
+          "Spicy"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "30 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 175,
+        "reviews": [
+          {
+            "id": "28",
+            "userId": "7",
+            "postId": "15",
+            "rating": "1",
+            "comment": "Looks Ewwww ! :("
+          },
+          {
+            "id": "31",
+            "userId": "12",
+            "postId": "15",
+            "rating": "1",
+            "comment": "hi"
+          }
+        ],
+        "servingSize": "2",
+        "img": "https://i2.wp.com/seonkyounglongest.com/wp-content/uploads/2021/03/Tom-Yum-07-mini.jpg?fit=1000%2C667&ssl=1"
+      },
+      {
+        "id": "16",
+        "title": "Peking Duck",
+        "ingredients": [
+          "Duck",
+          "Hoisin Sauce",
+          "Cucumber",
+          "Scallions",
+          "Pancakes"
+        ],
+        "method": "Roast duck until skin is crispy. Serve with hoisin sauce, sliced cucumbers, scallions, and pancakes. Assemble by spreading hoisin sauce on pancake, topping with duck and veggies, and rolling up.",
+        "type": "nonveg",
+        "cuisine": "Chinese",
+        "tags": [
+          "Duck",
+          "Chinese",
+          "Specialty"
+        ],
+        "difficulty": "Advanced",
+        "cookingTime": "180 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 132,
+        "reviews": [],
+        "servingSize": "4",
+        "img": "https://i0.wp.com/www.womensweeklyfood.com.au/wp-content/uploads/sites/4/2014/11/28/AustralianWomensWeeklyBR116332/cheat-s-peking-duck.jpg?resize=980%2C980&ssl=1"
+      },
+      {
+        "id": "17",
+        "title": "Pasta Primavera",
+        "ingredients": [
+          "Pasta",
+          "Assorted Vegetables",
+          "Garlic",
+          "Olive Oil",
+          "Parmesan Cheese"
+        ],
+        "method": "Boil pasta until al dente. Sauté assorted vegetables and minced garlic in olive oil until tender. Toss cooked pasta with veggies. Serve hot with grated Parmesan cheese.",
+        "type": "veg",
+        "cuisine": "Italian",
+        "tags": [
+          "Pasta",
+          "Italian",
+          "Vegetarian"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "25 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 187,
+        "reviews": [],
+        "servingSize": "3",
+        "img": "https://media.istockphoto.com/id/1353794176/photo/healthy-pasta-salad-plate-on-black-background.jpg?s=612x612&w=0&k=20&c=eRC0UsQKv1HTIsJYrGb2sSIvNZ4ipr_jJXfy1gLtiWI="
+      },
+      {
+        "id": "18",
+        "title": "Guacamole",
+        "ingredients": [
+          "Avocado",
+          "Tomato",
+          "Onion",
+          "Lime",
+          "Cilantro",
+          "Salt"
+        ],
+        "method": "Mash avocados in a bowl. Stir in diced tomatoes, onions, and chopped cilantro. Squeeze lime juice over the mixture. Season with salt to taste. Serve with tortilla chips.",
+        "type": "veg",
+        "cuisine": "Mexican",
+        "tags": [
+          "Dip",
+          "Mexican",
+          "Healthy"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "15 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 203,
+        "reviews": [],
+        "servingSize": "4",
+        "img": "https://t3.ftcdn.net/jpg/00/99/07/42/360_F_99074252_aCglAEpkfqyR8Jrn1Z1teDnuvn0pYKBz.jpg"
+      },
+      {
+        "id": "19",
+        "title": "Green Curry",
+        "ingredients": [
+          "Chicken",
+          "Green Curry Paste",
+          "Coconut Milk",
+          "Bamboo Shoots",
+          "Thai Basil"
+        ],
+        "method": "Simmer green curry paste in coconut milk until fragrant. Add sliced chicken and bamboo shoots. Cook until chicken is cooked through. Stir in Thai basil leaves. Serve hot with rice.",
+        "type": "nonveg",
+        "cuisine": "Thai",
+        "tags": [
+          "Curry",
+          "Thai",
+          "Spicy"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "35 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 169,
+        "reviews": [],
+        "servingSize": "4",
+        "img": "https://media.istockphoto.com/id/1267610826/photo/famous-internationally-renowned-thai-green-coconut-curry-gaeng-keow-wan-gai-with-chicken-in-a.jpg?s=612x612&w=0&k=20&c=jXhnFi2TPqQKpvuLAPinL5HeuwnINKyS0hIqom46aV4=",
+        "isTrending": false
+      },
+      {
+        "id": "20",
+        "title": "Cannoli",
+        "ingredients": [
+          "Ricotta Cheese",
+          "Flour",
+          "Sugar",
+          "Chocolate Chips",
+          "Pistachios",
+          "Marsala Wine"
+        ],
+        "method": "Mix flour, sugar, and Marsala wine to form a dough. Roll out and cut into circles. Wrap dough around metal cannoli forms and fry until golden brown. Fill with sweetened ricotta cheese and sprinkle with chocolate chips and chopped pistachios.",
+        "type": "veg",
+        "cuisine": "Italian",
+        "tags": [
+          "Dessert",
+          "Italian",
+          "Fried"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "45 minutes",
+        "authorId": 1111,
+        "authorName": "flavourRealm",
+        "likesCount": 195,
+        "reviews": [],
+        "servingSize": "6",
+        "img": "https://t4.ftcdn.net/jpg/01/23/94/39/360_F_123943990_KMymS2hOxbpPognbDrKo38cSTx5ZxfI7.jpg"
+      },
+      {
+        "id": "22",
+        "title": "Gajar ka Halwa",
+        "ingredients": [
+          "carrots",
+          "Ghee",
+          "cashews",
+          "cardamom powder ",
+          "milk",
+          "sugar",
+          "raisans",
+          "almonds"
+        ],
+        "method": "Step 1: Grate the Carrots\n\nPeel and grate fresh carrots using a grater.\nHeat a pan and add a tablespoon of ghee (clarified butter).\nAdd the grated carrots to the pan and sauté them until they turn soft and release their juices. This might take around 10-15 minutes on medium heat.\nStep 2: Cook the Carrots\n\nOnce the carrots are soft, add milk to the pan. The quantity of milk depends on the amount of carrots you have, but a good rule of thumb is to add enough milk to just cover the carrots.\nLet the mixture simmer on low heat, stirring occasionally. Allow the carrots to cook in the milk until the milk reduces and thickens. This process could take around 30-40 minutes.\nStep 3: Sweeten and Flavor\n\nOnce the milk has reduced significantly and the carrots are cooked through, add sugar according to your taste preference. You can start with half a cup of sugar and adjust according to your sweetness preference.\nAdd cardamom powder and chopped nuts like almonds and pistachios for flavor and texture.\nStir well and continue cooking for another 10-15 minutes until the mixture thickens further and attains a halwa-like consistency.\nYour Gajar ka Halwa is now ready to be served hot or cold, garnished with more chopped nuts if desired.\nEnjoy your delicious homemade Gajar ka Halwa!",
+        "type": "veg",
+        "cuisine": "Indian",
+        "tags": [
+          "Sweet ",
+          " snacks ",
+          " indian "
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "90 minutes",
+        "servingSize": "4",
+        "img": "https://t3.ftcdn.net/jpg/03/27/17/30/360_F_327173095_araZyvlYmOO17gNxsK6jsXxbVuEAQJ9q.jpg",
+        "reviews": [],
+        "likesCount": 200,
+        "authorId": "13",
+        "authorName": "ridham",
+        "image": "https://t3.ftcdn.net/jpg/03/27/17/30/360_F_327173095_araZyvlYmOO17gNxsK6jsXxbVuEAQJ9q.jpg"
+      },
+      {
+        "id": "24",
+        "title": "Yummm Manchurian ",
+        "ingredients": [
+          "Cabbage",
+          "Carrot",
+          "Capsicum",
+          "Onion",
+          "Ginger-garlic paste",
+          "Corn flour",
+          "Sauces",
+          "ajionomoto(optional)",
+          "green chilly",
+          "spring onions"
+        ],
+        "method": "In the same pan used for frying the vegetable balls, heat 2 tablespoons of vegetable oil over medium heat.\nAdd the chopped garlic, chopped ginger, and slit green chilies. Sauté for a minute until aromatic.\nAdd the finely chopped onion and diced bell pepper. Stir-fry for 2-3 minutes until the vegetables are slightly softened but still crisp.\nStir in soy sauce, chili sauce or Sriracha sauce, tomato ketchup, vinegar, sugar, and salt. Mix well.\nPour in water and bring the mixture to a simmer.\nIn a small bowl, mix cornflour with water to form a smooth slurry. Gradually pour the cornflour slurry into the simmering sauce while stirring continuously.\nCook the sauce for another 2-3 minutes or until it thickens to your desired consistency.\nAdd the fried vegetable balls to the sauce and gently toss until they are well coated.\nCook for an additional minute, allowing the vegetable balls to absorb the flavors of the sauce.\nGarnish with chopped spring onions or cilantro if desired.\nServe hot as an appetizer or with steamed rice or noodles as a main course",
+        "type": "veg",
+        "cuisine": "Chinese",
+        "tags": [
+          "Snacks",
+          "Spicy",
+          "Delicious",
+          "chinese",
+          "streetfood",
+          "quick and easy",
+          "yummy"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "45 minutes",
+        "servingSize": "4",
+        "img": "https://media.istockphoto.com/id/1284771657/photo/veg-manchurian-gravy-balls-in-black-bowl-in-dark-slate-table-top-vegetarian-manchurian-is.jpg?s=612x612&w=0&k=20&c=M0w1rsKN_wkXJpX1Gr14giH8mEvCalM6gSZD2qgfnCU=",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "12",
+        "authorName": "harsh",
+        "isTrending": false
+      },
+      {
+        "id": "26",
+        "title": "Gujarati Thepla",
+        "ingredients": [
+          "2 cups whole wheat flour (atta)",
+          "1 cup finely chopped fenugreek leaves (methi)",
+          "1/4 cup yogurt",
+          "1 tablespoon oil",
+          "1/2 teaspoon turmeric powder",
+          "1/2 teaspoon red chili powder",
+          "Salt to taste",
+          "Water",
+          "as needed"
+        ],
+        "method": "Heat a griddle or tawa over medium heat.\nPlace a rolled thepla onto the hot griddle.\nCook for about a minute or until you see bubbles forming on the surface.\nFlip the thepla and cook the other side, applying some oil or ghee on the surface.\nPress gently with a spatula to ensure even cooking and to get golden brown spots on both sides.\nOnce cooked, remove the thepla from the griddle and place it on a plate.\nRepeat the same process with the remaining rolled theplas.\nServe hot with yogurt, pickle, or any chutney of your choice.\n",
+        "type": "veg",
+        "cuisine": "Indian",
+        "tags": [
+          "Gujarati",
+          "snacks",
+          "breakfast"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "30 minutes",
+        "servingSize": "2",
+        "img": "https://thumbs.dreamstime.com/b/indian-parantha-stuffed-indian-bread-methi-thepla-stack-indian-flatbread-methi-paratha-fenugreek-gujarati-thepla-potato-125773599.jpg",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "12",
+        "authorName": "harsh",
+        "isTrending": true
+      },
+      {
+        "id": "27",
+        "title": "Chole puri",
+        "ingredients": [
+          "Chole",
+          "all purpose flour"
+        ],
+        "method": "Mix flour, sugar, and Marsala wine to form a dough. Roll out and cut into circles. Wrap dough around metal cannoli forms and fry until golden brown. Fill with sweetened ricotta cheese and sprinkle with chocolate chips and chopped pistachios.",
+        "type": "veg",
+        "cuisine": "Indian",
+        "tags": [
+          "Punjabi",
+          "Indian",
+          "Spicy"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "50 minutes",
+        "servingSize": "3",
+        "img": "https://static.vecteezy.com/system/resources/thumbnails/015/933/115/small_2x/chole-bhature-is-a-north-indian-food-dish-a-combination-of-chana-masala-and-bhatura-or-puri-free-photo.jpg",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "1111",
+        "authorName": "FlavourRealm"
+      },
+      {
+        "id": "28",
+        "title": "South indian Dosa",
+        "ingredients": [
+          "batter",
+          "spices",
+          "potato"
+        ],
+        "method": "Prepare dosa batter by soaking rice and urad dal overnight, then grind into a smooth paste.\nFerment the batter overnight to achieve the characteristic tangy flavor and bubbly texture.\nHeat a non-stick or cast iron skillet over medium-high heat and pour a ladleful of batter onto the center.\nSpread the batter in a circular motion to form a thin, even layer and drizzle oil around the edges.\nCook until the edges start to brown and crisp, then flip the dosa and cook for a few more seconds before serving hot with chutney or sambar.",
+        "type": "veg",
+        "cuisine": "Indian",
+        "tags": [
+          "south indian",
+          "breakfast"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": " 20 minutes",
+        "servingSize": "2",
+        "img": "https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-plate-of-dosa-with-sauce-on-top-image_2892701.jpg",
+        "reviews": [
+          {
+            "id": "48",
+            "userId": "29",
+            "postId": "28",
+            "rating": "2",
+            "comment": "nice"
+          }
+        ],
+        "likesCount": 51,
+        "authorId": "1111",
+        "authorName": "FlavourRealm",
+        "isTrending": true
+      },
+      {
+        "id": "29",
+        "title": "Masala bhindi",
+        "ingredients": [
+          "ladyfingers",
+          "spices",
+          "oil",
+          "onion",
+          "curd ",
+          "garam masala",
+          "ginger-garlic paste"
+        ],
+        "method": "Wash the okra thoroughly and pat dry using a kitchen towel. Trim the ends and slit each okra vertically without cutting them into two pieces.\nHeat oil in a pan or skillet over medium heat. Add cumin seeds and let them splutter.\nAdd finely chopped onions and slit green chilies. Saute until the onions turn translucent.\nAdd ginger-garlic paste and sauté until the raw smell disappears.\nNow add the slit okra to the pan. Stir well and cook for 2-3 minutes.\nAdd turmeric powder, coriander powder, red chili powder, and salt. Mix well, ensuring the spices coat the okra evenly.\nCover the pan with a lid and cook for another 8-10 minutes, stirring occasionally, until the okra is cooked through and becomes tender.",
+        "type": "veg",
+        "cuisine": "Indian",
+        "tags": [
+          "lunch ",
+          "easy",
+          "quick and easy"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "30 minutes",
+        "servingSize": "2",
+        "img": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2020/Bhindi__Masala_Recipe_Bhindi_Tamatar_Sabzi_North_Indian_Recipe_1_1600.jpg",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "12",
+        "authorName": "harsh"
+      },
+      {
+        "id": "30",
+        "title": "Paneer Tikka masala",
+        "ingredients": [
+          "Paneer",
+          "Curd",
+          "Gram flour",
+          "Spices",
+          "Oil",
+          "Coriander "
+        ],
+        "method": "Cut paneer (Indian cottage cheese) into cubes and prepare the marinade.\nThe marinade typically consists of yogurt, spices like red chili powder, turmeric, garam masala, and lemon juice.\nThread the marinated paneer cubes onto skewers, along with chunks of vegetables like bell peppers, onions, and tomatoes.\nCook the skewered paneer tikka either on a grill, in a grill pan, or bake them in the oven.\nIf grilling, cook until the paneer and vegetables are charred and cooked through, flipping occasionally.\nIf baking, preheat the oven and bake the skewers until the paneer is golden brown and the vegetables are tender.",
+        "type": "veg",
+        "cuisine": "Indian",
+        "tags": [
+          "Spicy",
+          "StreetFood",
+          "Snacks",
+          "Punjabi"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "30 minutes",
+        "servingSize": "4",
+        "img": "https://t4.ftcdn.net/jpg/04/75/65/21/360_F_475652107_Sx73qgHWljGylX5KRyDFeE46ftX0A4EE.jpg",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "12",
+        "authorName": "harsh"
+      },
+      {
+        "id": "31",
+        "title": "Cake",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1 cup sugar",
+          "1 cup milk",
+          "1/2 cup vegetable oil"
+        ],
+        "method": "Preheat oven to 350°F (175°C) and grease a cake pan.\nIn a bowl, mix flour, sugar, and baking powder.\nAdd milk and vegetable oil to the dry ingredients and mix until smooth.\nPour batter into the greased pan and bake for 30-35 minutes.\nOnce baked, let the cake cool before serving. Enjoy!",
+        "type": "veg",
+        "cuisine": "Italian",
+        "tags": [
+          "sweet",
+          "baking",
+          "dessert"
+        ],
+        "difficulty": "Advanced",
+        "cookingTime": "50 minutes",
+        "servingSize": "4",
+        "img": "https://st4.depositphotos.com/10614052/25239/i/450/depositphotos_252391082-stock-photo-sweet-chocolate-cake-on-wooden.jpg",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "15",
+        "authorName": "Akshaliii"
+      },
+      {
+        "id": "32",
+        "title": "Dal bati",
+        "ingredients": [
+          "1 cup wheat flour",
+          "1/4 cup green moong dal",
+          "1/4 cup chana dal",
+          "1/4 cup toor daal"
+        ],
+        "method": "\nDaal Baati Recipe\nby TNNUpdated : Jul 14, 2022, 14:27 IST\nAvg. Rating\nRate\n Comments (26)\nFacebook\nTwitter\nPinit\nDaal Baati\nTotal Time1h 20mPrep Time20 mCalories354\nBookmark\nAdd To Collection\nMaking Rajasthani Dal Baati Churma at home? Follow this easy Dal Baati Recipe step by step today!\n\n\n\nDid you know that you can enjoy authentic Rajasthani dal baati at home? Here is an easy dal baati recipe that will help you get a plate full of this yummy delicacy in no time. This restaurant style dal baati churma recipe is conveniently made with ingredients that are easily available in any kitchen. Just follow this step by step dal baati recipe and prepare to give a pleasant surprise to your loved ones! Rajasthani recipes are unique as all their dishes are such that you can store them for a couple of days, and they will have a fresh taste. If you love spicy food, you must give this traditional Rajasthani dish a try as it is super flavourful. Your taste buds will get to experience the culinary delights that you may not have till now. One such dish is Daal Bati, which is ideally served with churma (made of crumbled chapatis dipped in ghee and jaggery). This dish is a speciality of Rajasthani cuisine. This is one of the easy recipes to make Daal Baati, which consists of crispy baatis made of wheat flour, sooji or semolina, salt and ghee. These baatis are cooked in a tandoor which gives them a smoky flavour when dipped in the dal. This dal is also unique and is prepared using 3-4 types of lentils. The dal has a tadka of several authentic Rajasthani spices that gives it a distinct taste. While preparing this main dish recipe, it is suggested that you should use a generous amount of ghee. Remember this when making the baatis, as then the real flavour of this dish will come out. You can serve this dish on any occasion and it will only earn you praises. Try this easy recipe and enjoy with your loved ones!\n\n\n\n\n\nRead more\nIngredients of Daal Baati\n\n2 Servings\n1 cup wheat flour\n1/4 cup chana dal\n1/4 teaspoon garam masala powder\n1/8 teaspoon turmeric\n1/2 tablespoon lemon juice\n1/2 tablespoon coriander leaves\n1/4 teaspoon cumin seeds\n2 cup water\n1 tablespoon urad dal\n1/4 cup green moong dal\n1/2 tablespoon ghee\n1/2 teaspoon red chilli powder\n1/4 teaspoon coriander powder\n2 pinches salt\n1/4 inch ginger\n1/4 teaspoon mustard seeds\n1/4 cup toor daal\nFor Dough\n1/2 tablespoon semolina\n1 pinch salt\n1 tablespoon ghee\n\n\nHow to make Daal Baati\nStep 1 Knead the dough for the baatis\nTo prepare the baatis, take a glass bowl and add wheat flour with rawa, salt and ghee. Using your hands, knead a very stiff dough with warm water. Shape the dough in the size of a ping pong ball. Meanwhile, heat a gas tandoor and roast the dough balls on low heat for some time. Make sure they are brown and crusty.\n\nThen, break open from the top and pour some fresh ghee on the halves. Then to prepare the dal, wash all the dals together add 1 cup water and a quarter teaspoon of turmeric. Pressure cook the dals till 2 whistles. Allow the cooker to cool and remove the dal. \nGive the tadka to boiled dal and garnish with coriander leaves.",
+        "type": "veg",
+        "cuisine": "Rajasthani",
+        "tags": [
+          "Rajasthani",
+          "Lunch",
+          "Tradition "
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "30 minutes",
+        "servingSize": "3",
+        "img": "https://t4.ftcdn.net/jpg/02/03/06/45/360_F_203064510_mkerPoGGefI6JwajMaMoshbMwU6PFbhr.jpg",
+        "reviews": [
+          {
+            "id": "42",
+            "userId": "12",
+            "postId": "32",
+            "rating": "4",
+            "comment": "Amazingggg Recipe!!!"
+          }
+        ],
+        "likesCount": 51,
+        "authorId": "1111",
+        "authorName": "FlavourRealm",
+        "isTrending": true
+      },
+      {
+        "id": "33",
+        "title": "Rajasthani Ghevar",
+        "ingredients": [
+          "1 1/2 cup all purpose flour",
+          "1/2 cup ghee",
+          "2 pieces ice cubes",
+          "water",
+          "sugar",
+          "ghee",
+          "milk"
+        ],
+        "method": "Step 1 Prepare the sugar syrup for Ghevar\nGhevar is an easy-to-make recipe and can be prepared with some easily available ingredients. To begin with, you need to prepare the sugar syrup of one string consistency. Then, take a large wide bowl and add solidified ghee in it. Take one ice cube at a time and rub the ghee vigorously. Take more ice cubes as required till the ghee becomes very white in colour.\nStep 2 Prepare the Ghevar batter\nThen add milk, flour and one cup water. Mix these ingredients to make a smooth batter. Dissolve food colour in water and add to the batter. Add more water as required. The consistency of the batter should be fairly thin.\nStep 3 Cook the Ghevar\nThen take an aluminium or steel cylindrical container. Make sure that its height is at least 12″ and diameter is of 5-6″. Fill half of the container with ghee. Heat it and once the ghee is hot enough, then take a 50 ml, a glassful of the batter. Pour in centre of ghee, slowly in one continuous thread-like stream. Allow the foam to settle.\nStep 4 Cool the Ghevar and garnish with dry fruits\nAlternatively, pour some syrup evenly all over, keeping Ghevar in a mesh placed over a container. Let it cool and settle down, then top it with edible silver foil. Splash a few drops of saffron milk, sprinkle some chopped dry fruits and 1 tsp of cardamom powder. Serve it with savouries like Pakoras, Kachoris and Samosas.",
+        "type": "veg",
+        "cuisine": "Rajasthani",
+        "tags": [
+          "Rajasthani",
+          "Sweet",
+          "Dessert"
+        ],
+        "difficulty": "Advanced",
+        "cookingTime": "50 minutes",
+        "servingSize": "4",
+        "img": "https://t3.ftcdn.net/jpg/04/60/79/30/360_F_460793066_kFmSdrFRNraNsLeARfcxuEjiuO3GLo22.jpg",
+        "reviews": [
+          {
+            "id": "44",
+            "userId": "12",
+            "postId": "33",
+            "rating": "3",
+            "comment": "Looks tough to Prepare ;("
+          }
+        ],
+        "likesCount": 51,
+        "authorId": "12",
+        "authorName": "harsh",
+        "isTrending": true
+      },
+      {
+        "id": "34",
+        "title": "Rajasthani Gatte ki Sabzi",
+        "ingredients": [
+          "2 cup gram flour (besan)",
+          "2 cup yoghurt (curd)",
+          "2 tablespoon refined oil",
+          "ghee",
+          "water",
+          "spices",
+          "green chilly",
+          "ginger-garlic paste"
+        ],
+        "method": "Step 1\nTo prepare this delicious Rajasthani specialty, take a large bowl and mix together gram flour, 1 teaspoon turmeric powder, 1 teaspoon red chilli powder, salt and a pinch of asafoetida. Next, add two and a half tablespoons of ghee.\n\nStep 2\nNow, apply some ghee on your palm and knead the mixture into a firm dough using required amount of water. When done, divide the dough into equal portions and roll each portion in the form of cylindrical rolls.\n\nStep 3\nMeanwhile, put a kadhai on high flame and heat water in it. Bring it to a boil and add the besan rolls in it. Cook the rolls until they are light and soft and they start floating in water. In a similar way, cook all the remaining rolls and then, switch off the burner. Transfer them to a plate to cool lightly.\n\nStep 4\nNow, heat oil in another kadhai on medium flame and add black mustard seeds in it. Saute them until they crackle. Then, add cumin seeds and cook them until they splutter. Afterwards, add asafoetida in the oil and cook for a few seconds.\n\nStep 5\nMeanwhile, add ginger and green chilies in a blender jar and blend them into a fine paste. Add the prepared paste to the kadhai and then, add the remaining red chilli powder along with the remaining turmeric powder in the kadhai. Saute the ginger-garlic paste till the raw smell goes away.\n\nStep 6\nNow, add garam masala, coriander powder and salt as per your taste to the kadhai and stir to avoid burning the masala. Add a cup of water in the kadhai and stir well to mix with the spices. Meanwhile, beat the curd until it is soft and ensure that no lumps are formed.\n\nStep 7\nAdd curd to the kadhai and stir to incorporate the masala to the curd. Make sure that the consistency of gravy is thin and cook for about 6-7 minutes. Meanwhile, cut the besan rolls roughly into small pieces.\n\nStep 8\nWhen, the speck of oil starts to appear on the surface of gravy, add all the cut rolls into it and cook for a while. Bring it to a boil and reduce the flame. Let the rolls simmer in the gravy for 5-10 minutes.\n\nStep 9\nGatte Ki Sabzi is ready now, transfer the cooked dish to a serving bowl and serve hot with chapatis or steamed rice.",
+        "type": "veg",
+        "cuisine": "Rajasthani",
+        "tags": [
+          "Lunch",
+          "Rajasthani ",
+          "Tradition",
+          "Easy"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "70  minutes",
+        "servingSize": "4",
+        "img": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/05/gatte-ki-sabji-recipe-1.jpg",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "27",
+        "authorName": "Nisha Madhulika"
+      },
+      {
+        "id": "35",
+        "title": "Motichoor Laddu",
+        "ingredients": [
+          "Gram flour ",
+          "Ghee",
+          "¼ tsp saffron food colour",
+          "Oil",
+          "Water",
+          "Semolina"
+        ],
+        "method": "Firstly, to the hot sugar syrup, add prepared boondi.\nMix well and make sure to coat all the boondi with sugar syrup.\nContinue to cook for 2 -3 minutes or until sugar syrup thickens.\nCover and keep aside for 10 minutes.\nAfter 10 minutes, sugar syrup is absorbed completely by boondi.\nAdd 2 tbsp cashew and 2 tbsp pistachios. mix well.\nYou can see the the mixture is dried and all the sugar syrup has absorbed.\nPrepare the ladoo taking a small amount of boondi. add milk if required, to make moist laddu.\nFinally, motichoor laddo is ready to be served or refrigerate for a week.",
+        "type": "veg",
+        "cuisine": "Rajasthani",
+        "tags": [
+          "Sweet ",
+          "Dessert",
+          "Easy"
+        ],
+        "difficulty": "Intermediate",
+        "cookingTime": "30 minutes",
+        "servingSize": "4",
+        "img": "https://t4.ftcdn.net/jpg/04/96/17/29/360_F_496172916_Y4dHSR4gZ6WqnIVm9PZ1KAAsf4Mjrt7R.jpg",
+        "reviews": [
+          {
+            "id": "46",
+            "userId": "15",
+            "postId": "35",
+            "rating": "5",
+            "comment": "WOooooooww! looks YUMmmmm :)😍"
+          }
+        ],
+        "likesCount": 51,
+        "authorId": "28",
+        "authorName": "Ram",
+        "isTrending": true
+      },
+      {
+        "id": "36",
+        "title": "hello",
+        "ingredients": [
+          "2 teaspoons baking powder"
+        ],
+        "method": "w\n11\n1\n2\n2\n21\n2e2cdv\nf",
+        "type": "veg",
+        "cuisine": "Mexican",
+        "tags": [
+          "mexican",
+          "spicy"
+        ],
+        "difficulty": "Easy",
+        "cookingTime": "10 minutes",
+        "servingSize": "2",
+        "img": "https://pinchofyum.com/cdn-cgi/image/width=680,height=99999,fit=scale-down/wp-content/uploads/Cauliflower-Black-Bean-Tostadas-4.jpg",
+        "reviews": [],
+        "likesCount": 51,
+        "authorId": "29",
+        "authorName": "Mansi Jayswal"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "1",
+        "userId": 1,
+        "postId": 8,
+        "rating": 4,
+        "comment": "Great recipe! Really enjoyed making it."
+      },
+      {
+        "id": "2",
+        "userId": 2,
+        "postId": 14,
+        "rating": 5,
+        "comment": "Absolutely delicious. Will definitely make again."
+      },
+      {
+        "id": "3",
+        "userId": 3,
+        "postId": 3,
+        "rating": 3,
+        "comment": "Good recipe, but could use some adjustments."
+      },
+      {
+        "id": "4",
+        "userId": 4,
+        "postId": 18,
+        "rating": 2,
+        "comment": "Didn't quite like it. Needs improvement."
+      },
+      {
+        "id": "5",
+        "userId": 5,
+        "postId": 11,
+        "rating": 5,
+        "comment": "Amazing! This recipe is a keeper."
+      },
+      {
+        "id": "6",
+        "userId": 6,
+        "postId": 6,
+        "rating": 1,
+        "comment": "Terrible recipe. Waste of time."
+      },
+      {
+        "id": "7",
+        "userId": 7,
+        "postId": 10,
+        "rating": 4,
+        "comment": "Really enjoyed making this recipe. Will make it again."
+      },
+      {
+        "id": "8",
+        "userId": 8,
+        "postId": 20,
+        "rating": 3,
+        "comment": "Good recipe, but could be improved."
+      },
+      {
+        "id": "9",
+        "userId": 9,
+        "postId": 2,
+        "rating": 5,
+        "comment": "Fantastic recipe! Loved every bite."
+      },
+      {
+        "id": "10",
+        "userId": 10,
+        "postId": 16,
+        "rating": 2,
+        "comment": "Not what I expected. Disappointing."
+      },
+      {
+        "id": "11",
+        "userId": 2,
+        "postId": 2,
+        "rating": 4,
+        "comment": "amazing recipe , very delicious it is."
+      },
+      {
+        "id": "12",
+        "userId": 6,
+        "postId": 2,
+        "rating": 1,
+        "comment": "Did not like it at all."
+      },
+      {
+        "id": "13",
+        "userId": 5,
+        "postId": 1,
+        "rating": 5,
+        "comment": "one of the best dish i have found , so delicious yet easy to make"
+      },
+      {
+        "id": "14",
+        "userId": "12",
+        "postId": "5",
+        "rating": "5",
+        "comment": "very delicious recipe it is , everyone loved that and feeling proud that i can also cook well :)"
+      },
+      {
+        "id": "15",
+        "userId": "12",
+        "postId": "9",
+        "rating": "4",
+        "comment": "OMGGGGG! so yummy , never thought it would be that easy to make gulab jamun"
+      },
+      {
+        "id": "16",
+        "userId": "12",
+        "postId": "1",
+        "rating": "2",
+        "comment": "Good , but did not match the expectations! :("
+      },
+      {
+        "id": "17",
+        "userId": "12",
+        "postId": "21",
+        "rating": "4",
+        "comment": "loved the smoky flavour we got after roasting it into the tandoor!"
+      },
+      {
+        "id": "18",
+        "userId": "6",
+        "postId": "7",
+        "rating": "5",
+        "comment": "i'm living away from home and believe me this is very handy recipe to cook in minutes when you want to eat something tasty "
+      },
+      {
+        "id": "19",
+        "userId": "6",
+        "postId": "7",
+        "rating": "5",
+        "comment": "it is so good that i've added multiple reviews XD"
+      },
+      {
+        "id": "20",
+        "userId": "12",
+        "postId": "25",
+        "rating": "4",
+        "comment": "nice recipe"
+      },
+      {
+        "id": "21",
+        "userId": "14",
+        "postId": "1",
+        "rating": "4",
+        "comment": "Great recipe"
+      },
+      {
+        "id": "22",
+        "userId": "14",
+        "postId": "4",
+        "rating": "5",
+        "comment": "Looks delicious"
+      },
+      {
+        "id": "23",
+        "userId": "14",
+        "postId": "9",
+        "rating": "3",
+        "comment": "Looks amazinggg!!"
+      },
+      {
+        "id": "24",
+        "userId": "14",
+        "postId": "7",
+        "rating": "3",
+        "comment": "biryani is not biryaning the way it should biryaning XD"
+      },
+      {
+        "id": "25",
+        "userId": "14",
+        "postId": "9",
+        "rating": "4",
+        "comment": "quiet happy with the recipe :)"
+      },
+      {
+        "id": "26",
+        "userId": "12",
+        "postId": "14",
+        "rating": "3",
+        "comment": "nice"
+      },
+      {
+        "id": "27",
+        "userId": "7",
+        "postId": "6",
+        "rating": "5",
+        "comment": "Greattttttttttt Recipe!!"
+      },
+      {
+        "id": "28",
+        "userId": "7",
+        "postId": "15",
+        "rating": "1",
+        "comment": "Looks Ewwww ! :("
+      },
+      {
+        "id": "31",
+        "userId": "12",
+        "postId": "15",
+        "rating": "1",
+        "comment": "hi"
+      },
+      {
+        "id": "32",
+        "userId": "14",
+        "postId": "1",
+        "rating": "5",
+        "comment": "Amazinggggg recipe!"
+      },
+      {
+        "id": "33",
+        "userId": "14",
+        "postId": "1",
+        "rating": "3",
+        "comment": "good :)"
+      },
+      {
+        "id": "34",
+        "userId": "14",
+        "postId": "3",
+        "rating": "3",
+        "comment": "nice"
+      },
+      {
+        "id": "35",
+        "userId": "14",
+        "postId": "3",
+        "rating": "1",
+        "comment": "ok ok!"
+      },
+      {
+        "id": "36",
+        "userId": "14",
+        "postId": "2",
+        "rating": "3",
+        "comment": "Niceee"
+      },
+      {
+        "id": "38",
+        "userId": "15",
+        "postId": "5",
+        "rating": "3",
+        "comment": "Great recipe , easy to make !"
+      },
+      {
+        "id": "39",
+        "userId": "15",
+        "postId": "5",
+        "rating": "4",
+        "comment": "Looks deliciousssssss!!!"
+      },
+      {
+        "id": "40",
+        "userId": "16",
+        "postId": "3",
+        "rating": "4",
+        "comment": "Great Recipe!"
+      },
+      {
+        "id": "41",
+        "userId": "12",
+        "postId": "4",
+        "rating": "3",
+        "comment": "nice"
+      },
+      {
+        "id": "42",
+        "userId": "12",
+        "postId": "32",
+        "rating": "4",
+        "comment": "Amazingggg Recipe!!!"
+      },
+      {
+        "id": "44",
+        "userId": "12",
+        "postId": "33",
+        "rating": "3",
+        "comment": "Looks tough to Prepare ;("
+      },
+      {
+        "id": "45",
+        "userId": null,
+        "postId": "34",
+        "rating": "5",
+        "comment": "Rajasthani Food is amazing indeed!"
+      },
+      {
+        "id": "46",
+        "userId": "15",
+        "postId": "35",
+        "rating": "5",
+        "comment": "WOooooooww! looks YUMmmmm :)😍"
+      },
+      {
+        "id": "47",
+        "userId": null,
+        "postId": "5",
+        "rating": "4",
+        "comment": "nice!"
+      },
+      {
+        "id": "48",
+        "userId": null,
+        "postId": "28",
+        "rating": "2",
+        "comment": "nice"
+      },
+      {
+        "id": "49",
+        "userId": null,
+        "postId": "9",
+        "rating": "4",
+        "comment": "nice"
+      }
+    ],
+    "sub-admins": [
+      {
+        "id": "1",
+        "name": "subadmin1Main",
+        "email": "subadmin1@gmail.com",
+        "password": "Subadmin1@123",
+        "assignedCategory": "Indian",
+        "tags": [
+          "Maharastrian",
+          "Rajasthani",
+          "Gujarati"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "subAdmin2",
+        "email": "subadmin2@gmail.com",
+        "password": "SubAdmin@123",
+        "assignedCategory": "Mexican",
+        "tags": []
+      },
+      {
+        "id": "3",
+        "name": "dummysubadmin",
+        "email": "dummy@gmail.com",
+        "password": "Dummy@123",
+        "assignedCategory": "Italian",
+        "tags": []
+      },
+      {
+        "id": "4",
+        "name": "subadmin3",
+        "email": "subadmin3@gmail.com",
+        "password": "Subadmin3@123",
+        "assignedCategory": "Chinese",
+        "tags": [],
+        "category": "Chinese"
+      },
+      {
+        "id": "5",
+        "name": "subAdmin4",
+        "email": "subadmin4@gmail.com",
+        "password": "Subadmin4@123",
+        "assignedCategory": "Thai",
+        "tags": [],
+        "category": "Thai"
+      },
+      {
+        "id": "6",
+        "name": "subadmin5",
+        "email": "subadmin5@gmail.com",
+        "password": "Subadmin@123",
+        "assignedCategory": "Dumy",
+        "tags": []
+      },
+      {
+        "id": "7",
+        "name": "Nilay",
+        "email": "nilaydoshi@gmail.com",
+        "password": "Nilay@123",
+        "assignedCategory": "Punjabi",
+        "tags": [],
+        "category": "Punjabi"
+      },
+      {
+        "id": "8",
+        "name": "meghna",
+        "email": "meghna@gmail.com",
+        "password": "Meghna@123",
+        "assignedCategory": "Marathi",
+        "tags": [],
+        "category": "Marathi"
+      },
+      {
+        "id": "9",
+        "name": "shyam sundarr",
+        "email": "shyamsundar@gmail.com",
+        "password": "ShyamSundar@123",
+        "assignedCategory": "Sweets",
+        "tags": [],
+        "category": "Sweets"
+      },
+      {
+        "id": "10",
+        "name": "RajasthaniSubadmin",
+        "email": "rj@gmail.com",
+        "password": "Rj@123",
+        "assignedCategory": "Rajasthani",
+        "tags": []
+      }
+    ],
+    "category": []
+  }
